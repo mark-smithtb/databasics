@@ -66,7 +66,7 @@ NOTE: You may want to keep a backup of the `store.sqlite3` file in case you dama
 -     select user_id, sum(quantity * price) from [items] join orders on [items].id = item_id group by user_id order by                sum(quantity * price) desc limit 1;
 -     19|639386
 -     select * from users where id = 19;
--     select * from users where id = 19
+-     19|Hassan|Runte|weston.kautzer@hoppe.biz
 - [ ] What were the top 3 highest grossing categories?
 -     select category, sum(quantity * price) from [items] join orders on [items].id = item_id group by category  order by      -       sum(quantity * price) desc limit 3;
 -     Music, Sports & Clothing|525240
